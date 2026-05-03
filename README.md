@@ -90,3 +90,10 @@ gcloud run deploy election-assistant \
 ```
 
 ---
+## Security
+API keys are stored using environment variables and are never hardcoded.
+
+## Testing
+Basic API endpoint testing was performed using FastAPI TestClient.
+
+
