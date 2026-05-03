@@ -3,9 +3,30 @@
 AI-powered assistant that teaches users about election processes interactively.
 
 ---
+## Built Using Google Antigravity
 
+This project was developed using Google Antigravity along with Gemini AI and Google Cloud technologies to rapidly prototype and build an interactive election education assistant.
+
+# Approach and Logic
+
+The assistant uses Gemini AI to understand user questions related to elections and generate beginner-friendly educational responses.
+
+The workflow:
+1. User asks election-related question
+2. FastAPI backend processes request
+3. Gemini AI generates contextual response
+4. React frontend displays interactive output
+
+The system focuses on simplifying election awareness through conversational AI.
+
+# Assumptions
+
+- Users may have limited knowledge about elections
+- Internet connection is available
+- Gemini API access is configured properly
+- The assistant is designed for educational purposes
+  
 # Features
-
 - AI Chat Assistant
 - Election Timeline
 - Quiz System
@@ -25,12 +46,15 @@ AI-powered assistant that teaches users about election processes interactively.
 - Google Cloud Run
 
 # Accessibility
-- Responsive UI
-- Beginner-friendly interface
+- Responsive UI for mobile devices
+- Simple and readable interface
+- Beginner-friendly interaction design
+- Clear navigation and buttons
 
 # Security
-- Environment variables for API keys
-
+- API keys managed using environment variables
+- No sensitive credentials hardcoded
+- Backend configured with controlled API access
 ---
 
 # Backend Setup
@@ -90,8 +114,6 @@ gcloud run deploy election-assistant \
 ```
 
 ---
-## Security
-API keys are stored using environment variables and are never hardcoded.
 
 ## Testing
 Basic API endpoint testing was performed using FastAPI TestClient.
