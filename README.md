@@ -13,6 +13,24 @@ AI-powered assistant that teaches users about election processes interactively.
 - Gemini AI Integration
 - Cloud Run Deployment
 
+# Google Technologies Used
+- Gemini API
+- Google Cloud Run
+- Firebase (optional)
+
+# Tech Stack
+- React.js
+- FastAPI
+- Docker
+- Google Cloud Run
+
+# Accessibility
+- Responsive UI
+- Beginner-friendly interface
+
+# Security
+- Environment variables for API keys
+
 ---
 
 # Backend Setup
